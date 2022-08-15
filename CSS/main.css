@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(206, 223, 220);
+    background-color: rgb(31, 31, 33);
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: rgb(18, 23, 18);
+    margin: 0px;
+    width:100%;
+    list-style-type:none;
+    padding: 18px;
+}
+
+nav a{
+    color: rgb(10, 90, 80);
+    text-decoration: none;
+
+}
+
+nav :hover{
+    color:rgb(60, 170, 150)
+}
+
+#mainthing {
+    padding: 30px;
+}
+
+#Intro{
+    float: left;
+    background-color: rgb(75, 80, 100);
+    padding: 30px;
+    width: 45%;
+}
+
+#Table{
+    text-indent: 20px;
+    transform: translate(0.75%, 0%);
+    background-color: rgb(75, 80, 100);
+}
+
+#more {
+    width: 45%;
+    background-color: rgb(47, 52, 65);
+    padding: 30px;
+}
+
+#hobbies {
+    width: 45%;
+    background-color: rgb(75, 80, 100);
+    padding: 30px;
+}
+
+#extras {
+    transform: translate(0%,-109%);
+    float: right;
+    height: 120%;
+    width: 45%;
+}
+
+#music {
+    background-color: rgb(47, 52, 65);
+    padding: 30px;
+}
+
+
+#art {
+    padding: 30px;
+    background-color: rgb(75, 80, 100) 
+}
+
+#photo {
+
+    background-color: rgb(75, 80, 100);
+    padding: 30px
+}
+
+
+
